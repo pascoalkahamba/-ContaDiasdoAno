@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pascoal | Conta dias do Ano</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- https://www.linkedin.com/in/pascoal-kahamba-7b43bb233?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTg8LEKayToyytOX1pVAQ%2Bg%3D%3D -->
+</head>
+
+<body>
+    <main class="sidebar">
+        <div class="problema">
+            <h1>Conta dias do ano</h1>
+            <p>
+                <span>Ex.:04</span> Faça um algoritmo para ler o Dia e o Mes de uma data e informar quantos dias se passaram desde o inicio do ano! Considerando que um mes possui somente 30 dias.
+            </p>
+        </div>
+        <div class="resolvendo">
+            <!-- escreva algo -->
+            <div class="info-data">
+                <label for="dataManual">Informar Data </label>
+                <input type="radio" name="txt-data" id="dataManual" checked="checked" />
+                <label for="dataAutomatica">Usar data do sistema </label>
+                <input type="radio" name="txt-data" id="dataAutomatica" />
+            </div>
+            <br />
+            <div class="mes-dia">
+                <label for="mes">Mês: </label>
+                <input type="number" name="txt-mes" id="mes" placeholder="Em que mês estamos?" />
+                <label for="mes" class="nome-mes"></label><br /><br />
+                <label for="dia">Dia: </label>
+                <input type="number" name="txt-dia" id="dia" placeholder="Que dia" />
+            </div>
+            <br />
+            <input type="button" value="Mostrar quantidade de dias!" id="butao" />
+        </div>
+        <div class="solucao">Pascoal Kahamba</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

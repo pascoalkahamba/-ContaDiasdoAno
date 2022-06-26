@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(53, 53, 53);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.problema {
+    background-color: rgb(21, 68, 112);
+    /* padding: 10px; */
+}
+
+.problema span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.info-data label {
+    color: #000;
+    /* text-shadow: 5px 10px 10px #fff; */
+    font-size: 1.2em;
+}
+
+.info-data input {
+    /* width: 100%; */
+    background-color: #000;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.mes-dia input {
+    width: 152px;
+    padding: 5px;
+    background: rgb(33, 39, 70);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#dia {
+    width: 80px;
+}
+
+.resolvendo {
+    background-color: rgb(59, 138, 211);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+input[type='button'] {
+    border: 2px rgb(0, 110, 255) solid;
+    background-color: rgb(43, 114, 180);
+    color: rgb(11, 42, 71);
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    transition: .6s;
+}
+
+input[type='button']:hover {
+    background-color: rgb(59, 138, 211);
+    color: #fff;
+}
+
+h1 {
+    background-color: rgb(62, 62, 253);
+}
+
+.solucao {
+    visibility: hidden;
+    background-color: rgb(59, 138, 211);
+    margin-top: 2px;
+    padding: 20px;
+    font-size: 1.2em;
+    transition: .6s;
+}
