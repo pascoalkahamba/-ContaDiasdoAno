@@ -89,3 +89,10 @@ h1 {
     font-size: 1.2em;
     transition: .6s;
 }
+
+@media(max-width:483px) {
+    input[type='radio'] {
+        display: block;
+        margin: 0 auto;
+    }
+}
